@@ -11,7 +11,7 @@
     <title>مكتب المحامي/ د.محمد بارة : للمحاماة والاستشارات القانونية</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/business-frontpage.css" rel="stylesheet">
@@ -30,14 +30,14 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a class="nav-link" href="loginn.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;الرئيسية
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;الأدمن
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
@@ -69,10 +69,10 @@
             <p><i class="fa fa-balance-scale" style="font-size:36px"></i>  مكتب المحاماة القانونية </p>
             <p></p>
             <p>يتولــى مكتبنا تقديم الاستشارات القانونية ورفع كافة الدعاوي امــــــــام</p>
-            <p>المحكمة العليا وجميع المحاكم المدنية والتجارية والبنكية والضريبيــــــة</p>
-            <p> والعمالية  والشركات والجنائية وتقديم جميع الخدمات للشركات الأجنبية</p>
-            <p> في ليبيا من تسجيل وتجديد لدي الجهات الرسمية في لــيـبـيــا.</p>
-            <p>ويتعامل فضلا عن العربية بالانجليزية والايطالية والفرنسية.</p>
+            <p>المحكمة العليا وجميع المحاكم المدنية والتجارية والبنكية والضريبيـــــــة</p>
+            <p> والعمالية  والشركات والجنائية وتقديم جميع الخدمات للشركات الأجنبيــة</p>
+            <p> في ليبيا من تسجيل وتجديد لدي الجهات الرسمية في لــيـبـيــا.</p><br>
+            <p>ويتعامل مكتبنا فضلا عن العربية بالانجليزية والايطالية والفرنسية.</p>
             <!--<a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>-->
 
         </div>
@@ -105,13 +105,20 @@
     <!-- /.row -->
 
 </div>
+<div class="row">
+    <br><br><br><br>
+</div>
+<hr>
+
+<?php include "processReqAr.php"?>
 <!-- /.container -->
 
 <!-- Footer -->
 <footer class="py-5 bg-dark">
     <div class="container">
+        <h5 style="color: white"> شبكات تواصل:</h5>
         <a href="https://www.facebook.com/Dr.Mohamed.Bara"><i class="fa fa-facebook-official" style="font-size:36px"></i></a>
-        <a href="https://twitter.com/drbara1"><i class="fa fa-twitter" style="font-size:36px"></i></a>
+        &nbsp;&nbsp;&nbsp;<a href="https://twitter.com/drbara1"><i class="fa fa-twitter" style="font-size:36px"></i></a>
         <p class="m-0 text-center text-white">Copyright &copy;<abbr title="Email"><a href=mailto:Omar@ymail.com">Omar Bara 2018</a></abbr></p>
     </div>
     <!-- /.container -->
